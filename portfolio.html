@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="CSS/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,134 +24,133 @@
     />
   </head>
   <body>
-    <div class="container">
-      <header>
-        <div class="header1">
-          <a href="index.html" class="link"
-            ><span class="logo"><span class="color-logo">Web</span>Studio</span></a
-          >
-          <nav>
-            <ul>
-              <li>
-                <a href="#" class="link-text-header">Agencja</a>
-              </li>
-              <li>
-                <a href="portfolio.html" class="link-text-header">Portfolio</a>
-              </li>
-              <li>
-                <a href="#" class="link-text-header">Kontakt</a>
-              </li>
-            </ul>
-          </nav>
-          <ul>
+    <header class="header-border">
+      <div class="header1 container">
+        <a href="index.html" class="link"
+          ><span class="logo"><span class="color-logo">Web</span>Studio</span></a
+        >
+        <nav>
+          <ul class="menu">
             <li>
-              <a href="mailtoo:info@devstudio.com" class="link-text-header2">info@devstudio.com</a>
+              <a href="#" class="link-text-header">Agencja</a>
             </li>
+            <li class="menu-portfolio">
+              <a href="portfolio.html" class="link-text-header">Portfolio</a>
+            </li>
+            <li class="menu-contact">
+              <a href="#" class="link-text-header">Kontakt</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="contact-header">
+          <li>
+            <a href="mailtoo:info@devstudio.com" class="link-text-header2">info@devstudio.com</a>
+          </li>
+          <li class="contact-tel">
+            <a href="tel:+48 111 111 111" class="link-text-header2">+48 111 111 111</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main id="main-section" class="section">
+      <section>
+        <div class="container">
+          <ul class="button-list">
             <li>
-              <a href="tel:+48 111 111 111" class="link-text-header2">+48 111 111 111</a>
+              <button type="button" class="button1">Wszystkie</button>
+            </li>
+            <li class="button-list1">
+              <button type="button" class="button1">Strony</button>
+            </li>
+            <li class="button-list1">
+              <button type="button" class="button1">Aplikacje</button>
+            </li>
+            <li class="button-list1">
+              <button type="button" class="button1">Dizajn</button>
+            </li>
+            <li class="button-list1">
+              <button type="button" class="button1">Marketing</button>
             </li>
           </ul>
         </div>
-      </header>
-    </div>
-    <main class="main-section">
-      <section>
-        <ul>
-          <li>
-            <button type="button" class="button1">Wszystkie</button>
-          </li>
-          <li>
-            <button type="button" class="button1">Strony</button>
-          </li>
-          <li>
-            <button type="button" class="button1">Aplikacje</button>
-          </li>
-          <li>
-            <button type="button" class="button1">Dizajn</button>
-          </li>
-          <li>
-            <button type="button" class="button1">Marketing</button>
-          </li>
-        </ul>
       </section>
       <section>
-        <ul>
-          <li>
-            <img src="./images/img (9) (1).jpg" alt="laptop" width="370" height="294" /><span
-              class="name-project"
-              >Technocrack</span
-            ><span class="type-project"> Strona internetowa</span>
-          </li>
-          <li>
-            <img
-              src="./images/img (1) (1).jpg"
-              alt="basketball-players"
-              width="370"
-              height="294"
-            /><span class="name-project">Grafika New Orlean vs Golden Star</span
-            ><span class="type-project"> Dizajn</span>
-          </li>
-          <li>
-            <img
-              src="./images/img (2) (1).jpg"
-              alt="restaurant-logo"
-              width="370"
-              height="294"
-            /><span class="name-project">Restauracja Seafood</span
-            ><span class="type-project"> Aplikacja</span>
-          </li>
-          <li>
-            <img src="./images/img (3) (1).jpg" alt="headphones" width="370" height="294" /><span
-              class="name-project"
-              >Projekt Prime</span
-            ><span class="type-project"> Marketing</span>
-          </li>
-          <li>
-            <img src="./images/img (4) (1).jpg" alt="boxes" width="370" height="294" /><span
-              class="name-project"
-              >Projekt Boxes</span
-            ><span class="type-project"> Aplikacja</span>
-          </li>
-          <li>
-            <img src="./images/img (5) (1).jpg" alt="monitor" width="370" height="294" /><span
-              class="name-project"
-              >Inspiration has no Borders</span
-            ><span class="type-project"> Strona internetowa</span>
-          </li>
-          <li>
-            <img src="./images/img (6) (1).jpg" alt="magazine" width="370" height="294" /><span
-              class="name-project"
-              >Magazyn Limited Edition</span
-            ><span class="type-project"> Dizajn</span>
-          </li>
-          <li>
-            <img src="./images/img (7) (1).jpg" alt="label" width="370" height="294" /><span
-              class="name-project"
-              >Projekt LAB</span
-            ><span class="type-project"> Marketing</span>
-          </li>
-          <li>
-            <img src="./images/img (8) (1).jpg" alt="laptop" width="370" height="294" /><span
-              class="name-project"
-              >Growing Business</span
-            ><span class="type-project"> Aplikacja</span>
-          </li>
-        </ul>
+        <div class="container">
+          <ul class="images-list2">
+            <li class="images-list-item">
+              <img src="./images/img9.1.jpg" alt="laptop" width="370" height="294" /><span
+                class="name-project"
+                >Technocrack</span
+              ><span class="type-project"> Strona internetowa</span>
+            </li>
+            <li class="images-list-item">
+              <img
+                src="./images/img1.1.jpg"
+                alt="basketball-players"
+                width="370"
+                height="294"
+              /><span class="name-project">Grafika New Orlean vs Golden Star</span
+              ><span class="type-project"> Dizajn</span>
+            </li>
+            <li class="images-list-item">
+              <img src="./images/img2.1.jpg" alt="restaurant-logo" width="370" height="294" /><span
+                class="name-project"
+                >Restauracja Seafood</span
+              ><span class="type-project"> Aplikacja</span>
+            </li>
+            <li class="images-list-item">
+              <img src="./images/img3.1.jpg" alt="headphones" width="370" height="294" /><span
+                class="name-project"
+                >Projekt Prime</span
+              ><span class="type-project"> Marketing</span>
+            </li>
+            <li class="images-list-item">
+              <img src="./images/img4.1.jpg" alt="boxes" width="370" height="294" /><span
+                class="name-project"
+                >Projekt Boxes</span
+              ><span class="type-project"> Aplikacja</span>
+            </li>
+            <li class="images-list-item">
+              <img src="./images/img5.1.jpg" alt="monitor" width="370" height="294" /><span
+                class="name-project"
+                >Inspiration has no Borders</span
+              ><span class="type-project"> Strona internetowa</span>
+            </li>
+            <li class="images-list-item">
+              <img src="./images/img6.1.jpg" alt="magazine" width="370" height="294" /><span
+                class="name-project"
+                >Magazyn Limited Edition</span
+              ><span class="type-project"> Dizajn</span>
+            </li>
+            <li class="images-list-item">
+              <img src="./images/img7.1.jpg" alt="label" width="370" height="294" /><span
+                class="name-project"
+                >Projekt LAB</span
+              ><span class="type-project"> Marketing</span>
+            </li>
+            <li class="images-list-item">
+              <img src="./images/img8.1.jpg" alt="laptop" width="370" height="294" /><span
+                class="name-project"
+                >Growing Business</span
+              ><span class="type-project"> Aplikacja</span>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="footer-address">
-      <address>
+      <address class="container">
         <a href="index.html" class="link"
           ><span class="logo"
             ><span class="color-logo">Web</span><span class="color-logo2">Studio</span></span
           ></a
         >
         <span class="text-footer">m.Warszawa, Aleje Jerozolimskie 21</span>
-        <ul>
+        <ul class="contact-footer">
           <li>
             <a href="mailtoo:info@devstudio.com" class="link-text-footer2">info@devstudio.com</a>
           </li>
-          <li>
+          <li class="contact-footer1">
             <a href="tel:+48 111 111 111" class="link-text-footer2">+48 111 111 111</a>
           </li>
         </ul>
