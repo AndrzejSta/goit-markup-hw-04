@@ -343,12 +343,14 @@ ul {
   gap: 30px;
 }
 .icon-list {
-  background-color: #000000;
+  background-color: #ffffff;
   width: 270px;
   height: 120px;
   text-align: center;
   padding-top: 25px;
 }
+
+
 .social-media {
   display: flex;
   justify-content: center;
@@ -414,4 +416,25 @@ address {
 }
 .join-us-box {
   margin-left: 70px;
+}
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: #ffffff;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.icon-envelope {
+  width: 1.3330078125em;
 }
