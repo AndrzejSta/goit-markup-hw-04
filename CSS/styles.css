@@ -33,7 +33,8 @@ body {
 .button1:hover {
   background-color: #2196f3;
   color: #ffffff;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .name-project {
@@ -165,7 +166,7 @@ ul {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  background-image: url("../images/background-slogan.jpg");
+  background-image: url('../images/background-slogan.jpg');
 }
 .what-we-do {
   background-color: #ffffff;
@@ -193,7 +194,7 @@ ul {
   --footer: #2f303a;
   --our-team: #f5f4fa;
   --main-section: #ffffff;
-  --our-customers:#ffffff;
+  --our-customers: #ffffff;
 }
 .class {
   color: var(--red);
@@ -255,7 +256,8 @@ ul {
   background-color: #ffffff;
   padding-bottom: 30px;
   border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .team-list2 {
   display: flex;
@@ -265,7 +267,8 @@ ul {
   margin-right: 30px;
   padding-bottom: 30px;
   border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .team-list3 {
   display: flex;
@@ -274,7 +277,8 @@ ul {
   margin-right: 30px;
   padding-bottom: 30px;
   border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .team-list4 {
   display: flex;
@@ -282,7 +286,8 @@ ul {
   background-color: #ffffff;
   padding-bottom: 30px;
   border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .team {
   margin-top: 30px;
@@ -314,9 +319,9 @@ ul {
   border-bottom: #eeeeee solid 1px;
   flex-basis: calc((100% - 60px) / 3);
 }
-.images-list-item:hover
-{
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+.images-list-item:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 ul {
   padding: 0px;
@@ -325,14 +330,12 @@ ul {
 .header-border {
   border-bottom: #ececec solid 1px;
 }
-.header-envelope:hover
-{
-  color:#2196f3;
+.header-envelope:hover {
+  color: #2196f3;
   margin-right: 10px;
 }
-.header-phone:hover
-{
-  color:#2196f3;
+.header-phone:hover {
+  color: #2196f3;
 }
 .icony {
   display: flex;
@@ -340,7 +343,7 @@ ul {
   gap: 30px;
 }
 .icon-list {
-  background-color: #f5f4fa;
+  background-color: #000000;
   width: 270px;
   height: 120px;
   text-align: center;
@@ -363,45 +366,38 @@ ul {
   color: #ffffff;
   border-radius: 20px;
 }
-.our-customers
-{
+.our-customers {
   text-align: center;
   background-color: var(--our-customers);
 }
-.customers-list
-{
+.customers-list {
   display: flex;
   gap: 30px;
   justify-content: center;
 }
-.customers__item
-{
+.customers__item {
   width: 170px;
   height: 92px;
-  border: solid 1px #AFB1B8;
+  border: solid 1px #afb1b8;
   border-radius: 4px;
   padding-top: 16px;
 }
-.customers__item:hover
-{
-  fill:#2196f3;
+.customers__item:hover {
+  fill: #2196f3;
 }
-.join-us
-{
+.join-us {
   display: inline;
-  font-weight:700;
-  font-size:14px;
-  line-height:1.2;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
   color: #ffffff;
   font-style: normal;
 }
-.join-us-list
-{
+.join-us-list {
   display: flex;
   gap: 10px;
 }
-.join-us-item
-{
+.join-us-item {
   width: 44px;
   height: 44px;
   border-radius: 20px;
@@ -410,15 +406,12 @@ ul {
   padding-top: 12px;
   margin-top: 20px;
 }
-.join-us-item:hover
-{
+.join-us-item:hover {
   background-color: #2196f3;
 }
-address
-{
-  display: flex; 
+address {
+  display: flex;
 }
-.join-us-box
-{
+.join-us-box {
   margin-left: 70px;
 }
