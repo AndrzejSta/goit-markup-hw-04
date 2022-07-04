@@ -365,7 +365,7 @@ ul {
 }
 .social-item:hover {
   background-color: #2196f3;
-  color: #ffffff;
+  fill: #ffffff;
   border-radius: 20px;
 }
 .our-customers {
@@ -435,6 +435,23 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 
-.icon-envelope {
-  width: 1.3330078125em;
+
+.icon-social
+{
+    display: inline-block;
+  width: 1em;
+  height: 1em;
+  fill: #AFB1B8;
+}
+.icon-social:hover
+{
+  background-color: #2196f3;
+  fill: #ffffff;
+}
+.icon-contact
+{
+  fill:#757575;
+  color:#757575;
+  width: 16px;
+  height: 12px;
 }
